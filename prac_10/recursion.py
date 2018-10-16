@@ -33,7 +33,7 @@ def calculate_bricks(rows):
 
 def build_pyramid():
     selected_rows = int(input("How many rows are in your pyramid? "))
-    print("For {} rows, you need {} blocks".format(selected_rows, calculate_bricks(selected_rows)))
+    print("For {} rows, you need {} bricks".format(selected_rows, calculate_bricks(selected_rows)))
 
 
 build_pyramid()
